@@ -1,0 +1,192 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    background: #1E28320D;
+    width: 1920px;
+    height: 847px;
+
+}
+
+.hearder {
+    width: 1320px;
+    height: 113px;
+    top: 31px;
+    gap: 30px;
+    justify-content: center;
+}
+
+.hearder hr {
+    width: 1920px;
+    color: gainsboro;
+}
+
+.left {
+    width: 20px;
+    height: 19px;
+    border: 0.5px;
+
+}
+
+.center {
+    width: 180px;
+    height: 34px;
+    left: 570px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.right {
+    width: 221px;
+    height: 25px;
+    top: 4px;
+    left: 1097px;
+    gap: 22px;
+    display: flex;
+}
+
+.right-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.right-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.logo {
+    width: 1320px;
+    height: 59px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+
+}
+
+.center-1 {
+    width: 31px;
+    height: 15px;
+    top: 10px;
+    left: 570px;
+    border: 0.5px;
+    display: flex;
+
+
+}
+
+.center-2 {
+    font-family: AmstelvarAlpha;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 98px;
+    height: 34px;
+    left: 611px;
+}
+
+.nav {
+    width: 1320px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+
+}
+
+.main {
+    width: 1226px;
+    height: 562px;
+    top: 225px;
+    left: 300px;
+    border-radius: 160px, 0px, 160px, 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+
+.main img {
+    width: 424px;
+    height: 542px;
+    border-radius: 200px 0px 200px 0px;
+    position: absolute;
+    z-index: 100;
+
+}
+
+.bong {
+    width: 424px;
+    height: 542px;
+    border-radius: 200px 0px 200px 0px;
+    border: gainsboro 1px solid;
+    position: relative;
+    left: 10px;
+
+}
+
+.main-left {
+    width: 686px;
+    height: 364px;
+    top: 299px;
+    left: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.main-left p:first-child {
+    width: 360px;
+    height: 55px;
+    top: 299px;
+    left: 300px;
+    font-family: Roboto;
+    font-size: 74px;
+    font-weight: 300;
+    line-height: 55px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.p {
+    width: 682px;
+    height: 119px;
+    top: 406px;
+    left: 304px;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 55px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+
+.main button {
+    width: 223px;
+    height: 72px;
+    display: flex;
+    top: 591px;
+    left: 304px;
+    padding: 19px, 26px, 19px, 26px;
+    gap: 8px;
+    background: #1E2832;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
